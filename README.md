@@ -12,12 +12,6 @@ delete
 ```
 ### Edit Path
 ```In the class SaveAndLoadManager change the path where it says path: string path = "this is it > path < here" + name + ".clcontacts";```
-## Functions
-```
-delete
-save
-load
-```
 ## Video
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
 " target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
