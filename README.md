@@ -1,5 +1,5 @@
 # Command-Based-Contacts
-Create, Delete, and See Contacts.
+Create, Delete, and Load Contacts.
 
 ## Downloading Using Git
 ```git clone https://github.com/KadTheAadOfficial/Command-Based-Contacts.git```
