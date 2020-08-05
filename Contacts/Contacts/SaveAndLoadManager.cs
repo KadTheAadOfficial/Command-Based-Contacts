@@ -9,20 +9,20 @@ namespace Contacts
     {
         public static void Save (string email, string phone, string name)
         {
-            string path = "C:/Users/wissamadib/Documents/Contacts/" + name + ".clcontacts";
+            string path = "path" + name + ".clcontacts";
             string data = name + ":" + "\nEmail: " + email + "\nPhone: " + phone;
             File.WriteAllText(path, data);
             return;
         }
         public static string Load (string name)
         {
-            string path = "C:/Users/wissamadib/Documents/Contacts/" + name + ".clcontacts";
+            string path = "path" + name + ".clcontacts";
             string data = File.ReadAllText(path);
             return data;
         }
         public static void Delete (string name)
         {
-            string path = "C:/Users/wissamadib/Documents/Contacts/" + name + ".clcontacts";
+            string path = "path" + name + ".clcontacts";
             Console.Write("Are you sure? (Y/n): ");
             if (Console.ReadLine() == "Y")
             {
