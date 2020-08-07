@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Contacts
+namespace Contacts_App
 {
     class Program
     {
@@ -10,15 +10,17 @@ namespace Contacts
             if (args.Length == 0)
             {
                 Program();
-            } else
+            }
+            else
             {
                 SaveAndLoadManager.Input(args[0]);
                 Program();
             }
-            void Program()
+            Program();
+
+            static void Program()
             {
-                string function;
-                function = Console.ReadLine();
+                string function = Console.ReadLine();
 
                 if (function == "new")
                 {
